@@ -1,0 +1,17 @@
+Fri Mar 16 23:55:26 2018 => 3 cuffed 1
+Fri Mar 16 23:56:04 2018 => 3 cuffed 1
+Fri Mar 16 23:56:41 2018 => 3 cuffed 1
+Fri Mar 16 23:57:11 2018 => 3 jailed 1 for 2 minutes
+Fri Mar 16 23:57:33 2018 => 3 freed 1 from a 2 minutes sentence
+Sat Mar 17 00:06:47 2018 => 3 cuffed 4
+Sat Mar 17 00:07:12 2018 => 3 cuffed 4
+Sat Mar 17 00:52:22 2018 => 5 cuffed 3
+Sat Mar 17 00:52:42 2018 => 5 cuffed 3
+Wed Mar 21 23:11:18 2018 => 5 cuffed 1
+Wed Mar 21 23:11:19 2018 => 5 cuffed 1
+Wed Mar 21 23:11:20 2018 => 5 cuffed 1
+Wed Mar 21 23:11:24 2018 => 5 cuffed 1
+Thu Mar 22 22:06:34 2018 => 7 cuffed 5
+Thu Mar 22 22:07:05 2018 => 7 cuffed 5
+Thu Mar 22 22:07:06 2018 => 7 cuffed 5
+Thu Mar 22 22:07:10 2018 => 7 cuffed 5
