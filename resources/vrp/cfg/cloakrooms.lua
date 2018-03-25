@@ -57,7 +57,8 @@ cfg.cloakroom_types = {
       [8] = {6,0},
       [11] = {48,0},
       ["p2"] = {2,0}
-    }
+    },
+    ["LSPD"] = cop_male
   },
   ["Lawyer"] = {
     _config = { permissions = {"Lawyer.cloakroom"} },
@@ -111,7 +112,8 @@ cfg.cloakroom_types = {
   },
   ["Bounty"] = {
     _config = { permissions = {"Bounty.cloakroom"} },
-    ["Bounty"] = bounty_male 
+    ["US Marshal 1"] = bounty_male,
+    ["US Marshal 2"] = detective_male
   },
   ["Captain"] = {
     _config = { permissions = {"Captain.cloakroom"} },
