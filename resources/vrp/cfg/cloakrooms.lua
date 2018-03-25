@@ -15,6 +15,7 @@ local hway_male = { model = "s_m_y_hwaycop_01"}
 local cop_male = { model = "s_m_y_cop_01"}
 local cop_female = { model = "s_f_y_cop_01"}
 local detective_male = { model = "s_m_m_CIASec_01"}
+local detective_male_alt = { model = "s_m_m_ciasec_01_p" }
 local officer_male = { model = "s_m_y_cop_01"}
 local bounty_male = { model = "s_m_y_BlackOps_01"}
 local captain_male = { model = "s_m_y_fibcop_01"}
@@ -121,7 +122,8 @@ cfg.cloakroom_types = {
   },
   ["Detective"] = {
     _config = { permissions = {"Detective.cloakroom"} },
-    ["Detective"] = detective_male
+    ["Detective"] = detective_male,
+    ["Detective Alt"] = detective_male_alt
   },
   ["Deputy"] = {
     _config = { permissions = {"Deputy.cloakroom"} },
