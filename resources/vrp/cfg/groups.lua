@@ -1032,7 +1032,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Captain.cloakroom",
+	"police.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1072,7 +1072,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Lieutenant.cloakroom",
+	"police.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1112,7 +1112,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Lieutenant.cloakroom",
+	"police.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1152,7 +1152,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Lieutenant.cloakroom",
+	"police.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1192,7 +1192,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Sergeant.cloakroom",
+	"police.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1232,7 +1232,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Sergeant.cloakroom",
+	"police.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1272,7 +1272,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Sergeant.cloakroom",
+	"police.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1475,7 +1475,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"police.cloakroom",
+	"Detective.cloakroom",
     "police.putinveh",
     "police.getoutveh",
     "police.service",
@@ -1627,7 +1627,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Sergeant.cloakroom",
+	"sheriff.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1667,7 +1667,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Captain.cloakroom",
+	"sheriff.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1707,7 +1707,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Lieutenant.cloakroom",
+	"sheriff.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1747,7 +1747,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Lieutenant.cloakroom",
+	"sheriff.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1787,7 +1787,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Lieutenant.cloakroom",
+	"sheriff.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1827,7 +1827,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Chief.cloakroom",
+	"sheriff.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1867,7 +1867,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Chief.cloakroom",
+	"sheriff.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
@@ -1907,7 +1907,7 @@ cfg.groups = {
       onspawn = function(player) vRPclient.setCop(player,{true}) end,
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
-	"Chief.cloakroom",
+	"sheriff.cloakroom",
     "police.pc",
     --"police.handcuff",
     "police.putinveh",
