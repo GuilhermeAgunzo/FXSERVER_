@@ -159,34 +159,30 @@ cfg.gunshop_types = {
   ["Cadet"] = {
     _config = {blipid=110,blipcolor=74, permissions = {"Cadet.loadshop"}},
     ["WEAPON_SMOKEGRENADE"] = {"Smoke Grenade",0,0,""},
-    ["WEAPON_COMBATPISTOL"] = {"Pump Shotgun",0,0,""},
+    ["WEAPON_COMBATPISTOL"] = {"Glock-17",0,0,""},
     --["WEAPON_FLAREGUN"] = {"Flare Gun",0,0,""},
     --["WEAPON_FLASHLIGHT"] = {"Flashlight",0,0,""},
     --["WEAPON_FLARE"] = {"Flare",0,0,""},
     ["WEAPON_NIGHTSTICK"] = {"Nighstick",0,0,""},
     ["WEAPON_STUNGUN"] = {"Tazer",0,0,""}
   },
-  ["SWAT"] = {
+  ["Arsenal FBI - SWAT"] = {
     _config = {blipid=110,blipcolor=74, permissions = {"SWAT.loadshop"}},
-    ["WEAPON_SMOKEGRENADE"] = {"Smoke Grenade",0,0,""},
+    ["WEAPON_SMOKEGRENADE"] = {"Granada de Fumaça",0,0,""},
     ["WEAPON_BZGAS"] = {"BZ Gas",0,0,""},
-    --["WEAPON_PETROLCAN"] = {"Petrol",0,0,""},
-    --["WEAPON_PUMPSHOTGUN"] = {"Pump Shotgun",0,0,""},
-    --["WEAPON_FLAREGUN"] = {"Flare Gun",0,0,""},
-    --["WEAPON_FLASHLIGHT"] = {"Flashlight",0,0,""},
-    --["WEAPON_FLARE"] = {"Flare",0,0,""},
-    ["WEAPON_NIGHTSTICK"] = {"Nighstick",0,0,""},
+    ["WEAPON_NIGHTSTICK"] = {"Cacetete",0,0,""},
     ["WEAPON_STUNGUN"] = {"Tazer",0,0,""},
-    ["WEAPON_PISTOL50"] = {"Pistol .50",0,0,""},
-    ["WEAPON_COMBATSMG"] = {"Combat SMG",0,0,""},
+    ["WEAPON_PISTOL50"] = {"Desert Eagle",0,0,""},
+    ["WEAPON_SMG"] = {"UMP-45",0,0,""},
     ["WEAPON_COMBATPDW"] = {"Combat PDW",0,0,""},
-    ["WEAPON_SNIPERRIFLE"] = {"Sniper Rifle",0,0,""},
-    ["WEAPON_SPECIALCARBINE"] = {"Special Carbine",0,0,""}
+    ["WEAPON_SNIPERRIFLE"] = {"AWP",0,0,""},
+    ["WEAPON_SPECIALCARBINE"] = {"Special Carbine",0,0,""},
+    ["PICKUP_ARMOUR_STANDARD"] = {"Colete",0,0,""}
   },
-  ["Bounty_Hunter"] = { --
-    _config = {blipid=150,blipcolor=1, permissions = {"Bounty.loadshop"}},
+  ["Arsenal FBI - US Marshal"] = { -- US Marshal
+    _config = {blipid=110,blipcolor=74, permissions = {"Bounty.loadshop"}},
     --["WEAPON_PETROLCAN"] = {"Petrol",0,0,""},
-    ["WEAPON_PUMPSHOTGUN"] = {"Pump Shotgun",0,0,""},
+    ["WEAPON_PUMPSHOTGUN"] = {"Winchester",0,0,""},
 	["WEAPON_FLAREGUN"] = {"Sinalizador",0,0,""},
 	["WEAPON_FLASHLIGHT"] = {"Lanterna",0,0,""},
     ["WEAPON_FLARE"] = {"Flare",0,0,""},
@@ -198,6 +194,41 @@ cfg.gunshop_types = {
     ["WEAPON_COMBATPDW"] = {"Combat PDW",0,0,""},
     ["WEAPON_BZGAS"] = {"BZ Gas",0,0,""},
     ["WEAPON_CARBINERIFLE"] = {"M4A1",0,0,""}
+  },
+  ["Arsenal LSPD - 1"] = { -- 1º tenente, 2º tenente, Subtenente, 1º Sargento
+    _config = {blipid=110,blipcolor=1, permissions = {"Detective.loadshop"}},
+    ["WEAPON_PUMPSHOTGUN"] = {"Winchester",0,0,""},
+    ["WEAPON_FLASHLIGHT"] = {"Lanterna",0,0,""},
+    ["WEAPON_NIGHTSTICK"] = {"Cacetete",0,0,""},
+    ["WEAPON_STUNGUN"] = {"Tazer",0,0,""},
+    ["WEAPON_PISTOL50"] = {"Desert Eagle",0,0,""},
+    ["WEAPON_SMG"] = {"UMP-45",0,0,""},
+    ["WEAPON_SMOKEGRENADE"] = {"Granada de Fumaça",0,0,""},
+    ["WEAPON_CARBINERIFLE"] = {"M4A1",0,0,""}
+  },
+  ["Arsenal LSPD - 2"] = { -- Chefe de Polícia, Chefe substituto, Major, Capitão
+    _config = {blipid=110,blipcolor=1, permissions = {"chief.loadshop"}},
+    ["WEAPON_STUNGUN"] = {"Tazer",0,0,""},
+    ["WEAPON_SMOKEGRENADE"] = {"Granada de Fumaça",0,0,""},
+    ["WEAPON_PUMPSHOTGUN"] = {"Winchester",0,0,""},
+    ["WEAPON_CARBINERIFLE"] = {"M4A1",0,0,""},
+    ["WEAPON_SNIPERRIFLE"] = {"AWP",0,0,""},
+    ["WEAPON_COMBATPDW"] = {"Combat PDW",0,0,""},
+    ["WEAPON_PISTOL50"] = {"Desert Eagle",0,0,""},
+    ["WEAPON_SMG"] = {"UMP-45",0,0,""},
+    ["WEAPON_FLASHLIGHT"] = {"Lanterna",0,0,""},
+    ["WEAPON_NIGHTSTICK"] = {"Cacetete",0,0,""},
+    ["PICKUP_ARMOUR_STANDARD"] = {"Colete",0,0,""}
+  },
+  ["Arsenal LSPD - 3"] = {
+    _config = {blipid=110,blipcolor=74, permissions = {"police3.loadshop"}},
+    ["WEAPON_STUNGUN"] = {"Tazer",0,0,""},
+    ["WEAPON_SMOKEGRENADE"] = {"Smoke Grenade",0,0,""},
+    ["WEAPON_SMG"] = {"UMP-45",0,0,""},
+    ["WEAPON_PISTOL50"] = {"Desert Eagle",0,0,""},
+    ["WEAPON_FLASHLIGHT"] = {"Lanterna",0,0,""},
+    ["WEAPON_NIGHTSTICK"] = {"Cacetete",0,0,""},
+    ["PICKUP_ARMOUR_STANDARD"] = {"Colete",0,0,""}
   },
   ["emsloadout"] = {
     _config = {blipid=446,blipcolor=74, permissions = {"ems.loadshop"}},
@@ -220,10 +251,13 @@ cfg.gunshops = {
   {"emsloadout", 1837.8341064453,3671.3837890625,34.276763916016}, -- sandy shores
   {"emsloadout", -246.91954040527,6330.349609375,32.42618560791}, -- paleto
   {"eastlossantos1", 844.299, -1033.26, 28.1949},
-  {"SWAT", 461.33551025391,-981.11071777344,30.689584732056},
   {"Cadet", 461.33551025391,-981.11071777344,30.689584732056},
   {"policeloadout", 461.33551025391,-981.11071777344,30.689584732056},--- main pd
-  {"Bounty_Hunter", 148.85174560547,-762.76818847656,242.15191650391}, 
+  {"Arsenal LSPD - 1", 461.33551025391,-981.11071777344,30.689584732056},-- main pd (1º tenente, 2º tenente, Subtenente, 1º Sargento)
+  {"Arsenal LSPD - 2", 461.33551025391,-981.11071777344,30.689584732056},-- main pd (Chefe de Polícia, Chefe substituto, Major, Capitão)
+  {"Arsenal LSPD - 3", 461.33551025391,-981.11071777344,30.689584732056},-- main pd (2º Sargento 3º Sargento Cabo e Soldado)
+  {"Arsenal FBI - US Marshal", 148.85174560547,-762.76818847656,242.15191650391}, -- FBI Building - US Marshal
+  {"Arsenal FBI - SWAT", 148.85174560547,-762.76818847656,242.15191650391}, -- FBI Building - SWAT
   {"policeloadout", 1851.7342529297,3683.7416992188,34.267044067383}, -- sandy shores
   {"policeloadout", -442.724609375,6012.6293945313,31.716390609741}, -- paleto
   {"bombsticky", 708.847778320313,-959.231750488281,30.3953418731689},
