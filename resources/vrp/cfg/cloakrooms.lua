@@ -24,6 +24,7 @@ local sergeant_male = { model = "s_m_y_Ranger_01"}
 local deputy_male = { model = "s_m_y_ranger_01"}
 local chief_male = {model = "s_m_m_ciasec_01"}
 local santa = {model = "Santaclaus"}
+local fireman_male = {model = "s_m_y_fireman_01"}
 
 --s_m_m_paramedic_01
 --s_f_y_scrubs_01
@@ -141,6 +142,10 @@ cfg.cloakroom_types = {
     _config = { permissions = {"sheriff.cloakroom"} },
     ["Male"] = sheriff_male,
     ["Female"] = sheriff_female
+  },
+  ["LSFD"] = {
+    _config = { permissions = {"lsfd.cloakroom"} },
+    ["LSFD"] = fireman_male
   }
 }
 
@@ -181,7 +186,8 @@ cfg.cloakrooms = {
   {"surgery",1196.89221191406,2710.220703125,38.2226066589355},
   {"surgery",-3178.01000976563,1043.21044921875,20.8632164001465},
   {"surgery",-1101.15161132813,2710.8203125,19.1078643798828},
-  {"emergency",244.1099395752,-1382.8720703125,39.534328460693}
+  {"emergency",244.1099395752,-1382.8720703125,39.534328460693},
+  {"LSFD",1194.75,-1478.89,34.86}
   -- {"Santa",-1373.0778808594,-2677.6694335938,13.944942474365} -- Santa's Cloakroom (Disabled)
 }
 

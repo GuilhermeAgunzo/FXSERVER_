@@ -2114,6 +2114,7 @@ cfg.groups = {
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
 	"lsfd.cloakroom",
+	"emergency.vehicle",
     --"police.pc",
     --"police.handcuff",
     --"police.putinveh",
@@ -2154,6 +2155,7 @@ cfg.groups = {
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
 	"lsfd.cloakroom",
+	"emergency.vehicle",
     --"police.pc",
     --"police.handcuff",
     --"police.putinveh",
@@ -2194,6 +2196,7 @@ cfg.groups = {
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
 	"lsfd.cloakroom",
+	"emergency.vehicle",
     --"police.pc",
     --"police.handcuff",
     --"police.putinveh",
@@ -2234,6 +2237,7 @@ cfg.groups = {
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
 	"lsfd.cloakroom",
+	"emergency.vehicle",
     --"police.pc",
     --"police.handcuff",
     --"police.putinveh",
@@ -2274,6 +2278,7 @@ cfg.groups = {
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
 	"lsfd.cloakroom",
+	"emergency.vehicle",
     --"police.pc",
     --"police.handcuff",
     --"police.putinveh",
@@ -2314,6 +2319,7 @@ cfg.groups = {
       onleave = function(player) vRPclient.setCop(player,{false}) end
 	},
 	"lsfd.cloakroom",
+	"emergency.vehicle",
     --"police.pc",
     --"police.handcuff",
     --"police.putinveh",

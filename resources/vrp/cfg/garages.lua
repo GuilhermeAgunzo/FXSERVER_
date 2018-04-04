@@ -811,6 +811,20 @@ cfg.garage_types = {
                 blipcolor=4,
                 permissions={"medical.vehicle"}},
     ["pony2"] = {"Medical Weed Van",0, "pony2"}
+  },
+  ["lsfd"] = {
+    _config = { vtype="car",
+                opt={
+                    owned = true,
+                    buy = false,
+                    sell = false,
+                    rent = true,
+                    store = true
+                    },
+                blipid=50,
+                blipcolor=3,
+                permissions={"emergency.vehicle"}},
+    ["firetruk"] = {"firetruk",0, "emergency"}
   }
   
   
@@ -883,6 +897,8 @@ cfg.garages = {
   -- {"Santa",-1345.333984375,-2692.7885742188,13.944937705994}  
   {"Trash Collector",768.86297607422,-1410.4896240234,26.502605438232},
   {"new additions",42.50,-1854.08,22.83}, -- Casa simples 4 >> X= 42.50     Y= -1854.08   Z= 22.83   HEADING= 312.77
+  {"emergency",1200.76,-1494.53,34.69}, -- Garagem dos bombeiros/paramedicos
+  {"EMS Helicopters",1139.33,-1612.10,34.69} -- Heliponto dos bombeiros/paramedicos
  
   
   
