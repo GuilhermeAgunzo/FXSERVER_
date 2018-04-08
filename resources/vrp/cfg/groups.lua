@@ -942,7 +942,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"chefepol.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -982,7 +982,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"chefesub.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1022,7 +1022,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"chefesub.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1062,7 +1062,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Captain.paycheck",
+	"capitao.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1102,7 +1102,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Lieutenant.paycheck",
+	"tenente1.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1142,7 +1142,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Lieutenant.paycheck",
+	"tenente2.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1182,7 +1182,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Lieutenant.paycheck",
+	"subtenente.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1222,7 +1222,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Sergeant.paycheck",
+	"sargento1.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1262,7 +1262,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Sergeant.paycheck",
+	"sargento2.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1302,7 +1302,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Sergeant.paycheck",
+	"sargento3.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1345,7 +1345,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	--"player.list",
-	"Detective.paycheck",
+	"detetive1.paycheck",
 	"police.menu_interaction",
 	"player.blips",
 	"police.mission"
@@ -1389,7 +1389,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	--"player.list",
-	"Detective.paycheck",
+	"detetive2.paycheck",
 	"police.menu_interaction",
 	"player.blips",
 	"police.mission"
@@ -1433,7 +1433,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	--"player.list",
-	"Detective.paycheck",
+	"detetive3.paycheck",
 	"police.menu_interaction",
 	"player.blips",
 	"police.mission"
@@ -1465,7 +1465,7 @@ cfg.groups = {
 	"Cadet.vehicle",
 	"police3.loadshop",
 	"cop.whitelisted",
-	"Cadet.paycheck",
+	"cabo.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1496,7 +1496,7 @@ cfg.groups = {
 	"Cadet.vehicle",
 	"police3.loadshop",
 	"cop.whitelisted",
-	"Cadet.paycheck",
+	"cabo.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1527,7 +1527,7 @@ cfg.groups = {
 	"Cadet.vehicle",
 	"police3.loadshop",
 	"cop.whitelisted",
-	"Cadet.paycheck",
+	"soldado.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   }, -- US Marshal
@@ -1560,6 +1560,7 @@ cfg.groups = {
     "-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
 	"Bounty.vehicle",
 	"Bounty.loadshop",
+	"marshal.paycheck",
 	"police.menu_interaction",
 	"cop.whitelisted"
   },
@@ -1591,6 +1592,7 @@ cfg.groups = {
    -- "-police.store_weapons",
     "-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
 	"Bounty.vehicle",
+	"vicediretormarshal.paycheck",
 	"Bounty.loadshop",
 	"police.menu_interaction",
 	"cop.whitelisted"
@@ -1625,6 +1627,7 @@ cfg.groups = {
 	"Bounty.vehicle",
 	"Bounty.loadshop",
 	"police.menu_interaction",
+	"diretorusmarshal.paycheck",
 	"cop.whitelisted"
   }, -- Blaine County Police
   ["Xerife 1 Sargento"] = {
@@ -1663,7 +1666,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Sergeant.paycheck",
+	"xerifesarg1.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1703,7 +1706,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Sergeant.paycheck",
+	"xerifesarg2.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1743,7 +1746,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Sergeant.paycheck",
+	"xerifesarg3.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1783,7 +1786,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Sergeant.paycheck",
+	"sargmestre.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1823,7 +1826,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Captain.paycheck",
+	"xerifecap.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1863,7 +1866,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Lieutenant.paycheck",
+	"xerifeten1.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1903,7 +1906,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Lieutenant.paycheck",
+	"xerifeten2.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1943,7 +1946,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Lieutenant.paycheck",
+	"xerifeten3.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -1983,7 +1986,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"xerifechefe.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -2023,7 +2026,7 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"xerifeadjunto.paycheck",
 	"police.menu_interaction",
 	"police.mission"
   },
@@ -2063,49 +2066,9 @@ cfg.groups = {
 	"emergency.revive",
 	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"xerifemajor.paycheck",
 	"police.menu_interaction",
 	"police.mission"
-  },
-  ["Chefe de Bombeiros"] = {
-    _config = { gtype = "job",
-	  onjoin = function(player) vRPclient.setCop(player,{true}) end,
-      onspawn = function(player) vRPclient.setCop(player,{true}) end,
-      onleave = function(player) vRPclient.setCop(player,{false}) end
-	},
-	"lsfd.cloakroom",
-    --"police.pc",
-    --"police.handcuff",
-    --"police.putinveh",
-    --"police.getoutveh",
-    --"police.service",
-	--"police.drag",
-	--"police.easy_cuff",
-	--"police.easy_fine",
-	--"police.easy_jail",
-	--"police.easy_unjail",
-	--"police.spikes",
-	--"police.menu",
-    --"police.check",
-	--"toggle.service",
-	--"police.freeze",
-    --"police.wanted",
-    --"police.seize.weapons",
-    --"police.seize.items",
-    --"police.jail",
-    --"police.fine",
-    --"police.announce",
-    --"-police.store_weapons",
-    --"-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
-	--"police.vehicle",
-	"lsfd.loadshop",
-	--"emergency.market",
-	--"emergency.revive",
-	--"emergency.shop",
-	"cop.whitelisted",
-	"Chief.paycheck",
-	--"police.menu_interaction",
-	--"police.mission"
   },
   ["Chefe de Bombeiros"] = {
     _config = { gtype = "job",
@@ -2140,11 +2103,11 @@ cfg.groups = {
     --"-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
 	--"police.vehicle",
 	"lsfd.loadshop",
-	--"emergency.market",
-	--"emergency.revive",
-	--"emergency.shop",
+	"emergency.market",
+	"emergency.revive",
+	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"lsfdchefe.paycheck",
 	--"police.menu_interaction",
 	--"police.mission"
   },
@@ -2181,11 +2144,11 @@ cfg.groups = {
     --"-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
 	--"police.vehicle",
 	"lsfd.loadshop",
-	--"emergency.market",
-	--"emergency.revive",
-	--"emergency.shop",
+	"emergency.market",
+	"emergency.revive",
+	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"lsfdchefeadj.paycheck",
 	--"police.menu_interaction",
 	--"police.mission"
   },
@@ -2222,11 +2185,11 @@ cfg.groups = {
     --"-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
 	--"police.vehicle",
 	"lsfd.loadshop",
-	--"emergency.market",
-	--"emergency.revive",
-	--"emergency.shop",
+	"emergency.market",
+	"emergency.revive",
+	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"lsfdchefebat.paycheck",
 	--"police.menu_interaction",
 	--"police.mission"
   },
@@ -2263,11 +2226,11 @@ cfg.groups = {
     --"-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
 	--"police.vehicle",
 	"lsfd.loadshop",
-	--"emergency.market",
-	--"emergency.revive",
-	--"emergency.shop",
+	"emergency.market",
+	"emergency.revive",
+	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"lsfdcap.paycheck",
 	--"police.menu_interaction",
 	--"police.mission"
   },
@@ -2304,11 +2267,11 @@ cfg.groups = {
     --"-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
 	--"police.vehicle",
 	"lsfd.loadshop",
-	--"emergency.market",
-	--"emergency.revive",
-	--"emergency.shop",
+	"emergency.market",
+	"emergency.revive",
+	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"lsfdten.paycheck",
 	--"police.menu_interaction",
 	--"police.mission"
   },
@@ -2345,11 +2308,11 @@ cfg.groups = {
     --"-police.seizable",	-- negative permission, police can't seize itself, even if another group add the permission
 	--"police.vehicle",
 	"lsfd.loadshop",
-	--"emergency.market",
-	--"emergency.revive",
-	--"emergency.shop",
+	"emergency.market",
+	"emergency.revive",
+	"emergency.shop",
 	"cop.whitelisted",
-	"Chief.paycheck",
+	"lsfdten.paycheck",
 	--"police.menu_interaction",
 	--"police.mission"
   }

@@ -540,8 +540,7 @@ cfg.garage_types = {
     ["pigalle"] = {"Pigalle",90000, ""},
     ["surano"] = {"Surano",95000, ""}
   },
-  
-  ["police"] = {
+  ["LSPD - Los Santos"] = {
     _config = { vtype="car",
                 opt={
                     owned = true,
@@ -554,7 +553,6 @@ cfg.garage_types = {
                 blipcolor=38,
                 permissions={"police.vehicle"}},
     ["police"] = {"Police Cruiser",0, "police"},
-    ["police2"] = {"Dodge Sheriff",0, "police"},
     ["police3"] = {"Police3",0, "police"},
     ["police4"] = {"police4",0, "police"},
     ["police5"] = {"Police SUV",0, "police"},
@@ -562,22 +560,48 @@ cfg.garage_types = {
     ["police7"] = {"Police7",0, "police"},
 	["police8"] = {"Police8",0, "police"},
     ["policet"] = {"policet",0, "police"},
-    ["sheriff3"] = {"Sheriff",0, "police"},
-    ["sheriff2"] = {"Sheriff SUV",0, "police"},
-    ["sheriff"] = {"2015 Sheriff",0, "police"},
     ["riot"] = {"SWAT",0, "police"},
 	["fbi"] = {"Unmarked",0, "police"},
+    ["fbi2"] = {"fbi2", 0, "police"},
 	["hwaycar2"] = {"State Trooper",0, "police"},
 	["hwaycar3"] = {"Trooper SUV",0, "police"},
+    ["hwaycar4"] = {"hwaycar4", 0, "police"}
 	["hwaycar5"] = {"hwaycar5",0, "police"},
 	["hwaycar6"] = {"hwaycar6",0, "police"},
 	["hwaycar7"] = {"hwaycar7",0, "police"},
 	["hwaycar8"] = {"hwaycar8",0, "police"},
 	["hwaycar9"] = {"hwaycar9",0, "police"},
 	["hwaycar10"] = {"hwaycar10",0, "police"},
-	["hwaycar"] = {"hwaycar",0, "police"},
-    ["polf430"] = {"Police Ferarri",0, "police"},
-	["policeb"] = {"policeb",0, "police"}
+	["hwaycar"] = {"hwaycar",0, "police"}
+  },
+  ["LSPD - Sandy Shores e Blaine County"] = {
+    _config = { vtype="car",
+                opt={
+                    owned = true,
+                    buy = false,
+                    sell = false,
+                    rent = true,
+                    store = true
+                    },
+                blipid=56,
+                blipcolor=38,
+                permissions={"police.vehicle"}},
+    ["police2"] = {"Dodge Sheriff",0, "police"},
+    ["sheriff3"] = {"Sheriff",0, "police"},
+    ["sheriff2"] = {"Sheriff SUV",0, "police"},
+    ["sheriff"] = {"2015 Sheriff",0, "police"},
+    ["riot"] = {"SWAT",0, "police"},
+    ["fbi"] = {"Unmarked",0, "police"},
+    ["fbi2"] = {"fbi2", 0, "police"},
+    ["hwaycar2"] = {"State Trooper",0, "police"},
+    ["hwaycar3"] = {"Trooper SUV",0, "police"},
+    ["hwaycar5"] = {"hwaycar5",0, "police"},
+    ["hwaycar6"] = {"hwaycar6",0, "police"},
+    ["hwaycar7"] = {"hwaycar7",0, "police"},
+    ["hwaycar8"] = {"hwaycar8",0, "police"},
+    ["hwaycar9"] = {"hwaycar9",0, "police"},
+    ["hwaycar10"] = {"hwaycar10",0, "police"},
+    ["hwaycar"] = {"hwaycar",0, "police"}
   },
   ["Cadet"] = {
     _config = { vtype="car",
@@ -844,10 +868,10 @@ cfg.garages = {
   {"Motorcycles",-205.789, -1308.02, 31.2916},
   {"police",451.2121887207,-1018.2822875977,28.495378494263},	-- jobs garage
   {"Cadet",451.2121887207,-1018.2822875977,28.495378494263}, --- cadet garage
-  {"police",477.99038696289,-1020.9154663086,28.011201858521},
+  {"LSPD - Los Santos",477.99038696289,-1020.9154663086,28.011201858521},
   {"Bounty",512.07818603516,-3052.1579589844,6.0687308311462},  
-  {"police",1868.5435791016,3696.0295410156,33.5693359375},  -- sandy shores
-  {"police",-476.92425537109,6026.9951171875,31.340547561646},  -- paleto
+  {"LSPD - Sandy Shores e Blaine County",1868.5435791016,3696.0295410156,33.5693359375},  -- sandy shores
+  {"LSPD - Sandy Shores e Blaine County",-476.92425537109,6026.9951171875,31.340547561646},  -- paleto
   {"emergency",358.91650390625, -607.78515625, 28.6820983886719}, -- main
   {"emergency",1833.3223876953,3661.3088378906,33.875843048096}, -- sandy shores
   {"emergency",-255.98040771484,6346.1127929688,32.426189422607}, -- paleto

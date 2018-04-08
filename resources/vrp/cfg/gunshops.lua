@@ -242,7 +242,18 @@ cfg.gunshop_types = {
   ["bombsticky"] = {
     _config = {blipid=110,blipcolor=1},
    ["WEAPON_STICKYBOMB"] = {"Sticky bomb",50000,50000,""} 
- }
+ },
+ ["Arsenal Sandy Shores e Paleto Bay"] = {
+    _config = {blipid=110,blipcolor=74, permissions = {"police.loadshop"}},
+    ["WEAPON_PUMPSHOTGUN"] = {"Winchester",0,0,""},
+    ["WEAPON_FLASHLIGHT"] = {"Lanterna",0,0,""},
+    ["WEAPON_NIGHTSTICK"] = {"Cacetete",0,0,""},
+    ["WEAPON_STUNGUN"] = {"Tazer",0,0,""},
+    ["WEAPON_COMBATPISTOL"] = {"Glock-17",0,0,""},
+    ["WEAPON_REVOLVER"] = {"Python .357 Magnum",0,0,""},
+    ["WEAPON_SMG"] = {"UMP-45",0,0,""},
+    ["WEAPON_CARBINERIFLE"] = {"M4A1",0,0,""}
+  },
 }
 -- list of gunshops positions
 
