@@ -5,7 +5,7 @@ gui_interiors = {
 	lastmenu = nil,
 	currentpos = nil,
 	selectedbutton = 0,
-	marker = { r = 0, g = 155, b = 255, a = 200, type = 1 }, -- ???
+	marker = { r = 0, g = 155, b = 255, a = 200, type = 27 }, -- ???
 	menu = {
 		x = 0.11,
 		y = 0.25,

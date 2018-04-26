@@ -26,7 +26,7 @@ server_scripts{
   "modules/home_components.lua",
   "modules/mission.lua",
   "modules/aptitude.lua",
-
+  "modules/vehshop_server.lua",
   -- basic implementations
   "modules/basic_phone.lua",
   "modules/basic_atm.lua",
@@ -57,6 +57,7 @@ client_scripts{
   "client/paycheck.lua",
   "client/lockcar-client.lua",
   "client/admin.lua",
+  "client/vehshop.lua",
   "hotkeys/hotkeys.lua"
 }
 

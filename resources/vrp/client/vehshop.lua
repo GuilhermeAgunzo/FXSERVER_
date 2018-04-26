@@ -1,3 +1,4 @@
+
 local vehshop = {
 	opened = false,
 	title = "Vehicle Shop",
@@ -535,7 +536,7 @@ function DoesPlayerHaveVehicle(model,button,y,selected)
 end
 
 local backlock = false
-Citizen.CreateThread(function()
+Citizen.CreateThread(function(player)
 	while true do
 		Citizen.Wait(0)
 		if IsControlJustPressed(1,201) and IsPlayerInRangeOfVehshop() then
@@ -682,9 +683,28 @@ function ButtonSelected(button)
 		end
 	elseif this == "compacts" or this == "coupes" or this == "sedans" or this == "sports" or this == "sportsclassics" or this == "super" or this == "muscle" or this == "offroad" or this == "suvs" or this == "vans" or this == "industrial" or this == "cycles" or this == "motorcycles" then
 		--if playermoney >= button.costs then
-			vehicle_price = 0--button.costs
-			boughtcar = true
+			vehicle_price = button.costs
+			Citizen.Trace(vehicle_price)
+			Citizen.Trace(ped)
+			local source = PlayerId() --vRP.getUserId(player)
+			Citizen.Trace(source)
+			local playerName = GetPlayerName(user_id)
+			Citizen.Trace(playerName)
+			local server_id = GetPlayerServerId(source)
+			Citizen.Trace(server_id)
+
+			local user_id = vRP.getUserId(source)
+			Citizen.Trace(user_id)
+
+			if vRP.tryPayment(user_id,vehicle_price) then
+				boughtcar = true
+				Notify('~g~Paid ' .. vehicle_price)
+				--vRPclient.notify(player,{lang.money.paid({vehicle_price})})
 			CloseCreator()
+			else
+				Notify('~r~Not enough money')
+				--vRPclient.notify(player,{lang.money.not_enough()})
+			end
 		--else
 		--	Notify('~r~Not enough money')
 		--end

@@ -9,7 +9,7 @@
 --	https://github.com/iEns/RealisticVehicleFailure
 --
 
-local deformationMultiplier = 10.0				-- How much should the vehicle visually deform from a collision. Range 0.0 to 10.0 Where 0.0 is no deformation and 10.0 is 10x deformation. -1 = Don't touch
+local deformationMultiplier = 1.0				-- How much should the vehicle visually deform from a collision. Range 0.0 to 10.0 Where 0.0 is no deformation and 10.0 is 10x deformation. -1 = Don't touch
 local weaponsDamageMultiplier = 0.01			-- How much damage should the vehicle get from weapons fire. Range 0.0 to 10.0, where 0.0 is no damage and 10.0 is 10x damage. -1 = don't touch
 local damageFactorEngine = 10.0					-- Sane values are 1 to 100. Higher values means more damage to vehicle. A good starting point is 10
 local damageFactorBody = 10.0					-- Sane values are 1 to 100. Higher values means more damage to vehicle. A good starting point is 10
